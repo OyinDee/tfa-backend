@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 5000;
 const corsOptions = {
-  origin: ['https://tfauto.netlify.app', 'https://tfauto.vercel.app'], 
+  origin: 'https://tfauto.vercel.app/' , 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
 };
 
